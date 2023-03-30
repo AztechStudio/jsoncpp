@@ -1,7 +1,7 @@
 
 INCLUDEDIR += -I../jsonLib/
 OBJS += ./main.o
-LIBDIR = -L../jsonLib
+# LIBDIR = -L../jsonLib
 LIBS = ../jsonLib/libjsoncpp.a 
 
 COMPILEOPTION += -Wall

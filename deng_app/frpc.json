@@ -1,0 +1,25 @@
+﻿{
+    "userName": "t40_0",
+    "server_addr": "120.24.61.9",
+    "server_port ": 5000,
+    "function": [
+        {
+            "name": "ssh",
+            "local_ip": "127.0.0.1",
+            "local_port": 22,
+            "remote_port": 5100
+        },
+        {
+            "name": "rtsp",
+            "local_ip": "127.0.0.1",
+            "local_port": 554,
+            "remote_port": 5101
+        },
+        {
+            "name": "debugServer",
+            "local_ip": "127.0.0.1",
+            "local_port": 9999,
+            "remote_port": 5102
+        }
+    ]
+}
